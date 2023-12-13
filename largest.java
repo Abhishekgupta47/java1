@@ -17,14 +17,16 @@ public class largest
     
       large=arr[0];
 
-      if(arr[i]>large){
+      if(arr[i]>large)
+      {
         large=arr[i];
       
         System.out.println("the largest element= "+large);
+      }
     }
 
   }
 }
-}
+
 
 
