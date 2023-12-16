@@ -34,7 +34,7 @@ public class Arr2d {
       System.out.println();
     }
     // code for displaying transpose matrix
-    System.out.println("transpose matrix");
+    System.out.println("transpose matrix is =");
     for (i = 0; i < row; i++) {
       for (j = 0; j < column; j++) {
         System.out.print(arr1[i][j]+" ");
