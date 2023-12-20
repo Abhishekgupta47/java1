@@ -14,7 +14,7 @@ public class array2drdld {
     for (i = 0; i < row; i++) {
       for (j = 0; j < column; j++) {
         System.out.println("Enter the elements");
-        arr[row][column] = s.nextInt();
+        arr[i][j] = s.nextInt();
       }
 
     }
@@ -30,7 +30,16 @@ public class array2drdld {
 
     // code for performing sum of left and right diagonal
 
-    
+    int ld=0,rd=0;
+    j=2;
+    for(i=0;i<row;i++)
+    {
+      ld=ld+arr[i][i];
+      rd=rd+arr[j][i];
+      j--;
+    }
+    System.out.println("\nsum of left diagonal is ="+ld);
+    System.out.println("\nsum of right diagonal is ="+rd);
 
   }
 
