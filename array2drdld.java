@@ -23,7 +23,7 @@ public class array2drdld {
     {
       for(j=0;j<column;j++)
       {
-        System.out.println(arr[i][j]+ " ");
+        System.out.print(arr[i][j]+ " ");
       }
       System.out.println();
     }
