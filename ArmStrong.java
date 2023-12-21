@@ -15,7 +15,7 @@ public class ArmStrong {
 
      }
      if(sum==t){
-      System.out.println("\nArmstrong");
+      System.out.println("Armstrong");
      }
      else{
       System.out.println("not armstrong");
