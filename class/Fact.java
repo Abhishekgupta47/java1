@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Fact {
     void  factorial(int x){
         int f=1;
@@ -9,6 +10,10 @@ public class Fact {
 
     }
     public static void main(String[] args) {
-        new Fact().factorial(5);
+        int x;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        x=sc.nextInt();
+        new Fact().factorial(x);
     }
 }
