@@ -9,12 +9,11 @@ class C extends B{
    void showijkp(){
     System.out.println("i="+i+"\tj="+j+"\tk="+k+"\tp="+p);
    }
-  }
-
 
 void multi()
 {
   System.out.println("i*j*k*p="+(i*j*k*p));
+}
 }
 
 
@@ -25,6 +24,9 @@ public class MultiLevelInheritence {
      obj.j=5;
      obj.k=15;
      obj.p=10;
+
+     obj.showijkp();
+     obj.multi();
   }
   
 }
