@@ -28,4 +28,18 @@ class sumofSquare extends Square{
       sq=sq/10;
     }
   }
+  void showsumofsquare(){
+System.out.println("sum of square "+sum);
+  }
+}
+class multipleInheritence {
+  public static void main(String[] args) {
+    sumofSquare obj =new sumofSquare();
+    obj.getval(5);
+    obj.showval();
+    obj.calcsquare();
+    obj.showsquare();
+    obj.calcsum();
+    obj.showsumofsquare();
+  }
 }
