@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sortest {
+public class smallest {
   public static void main(String[] args) {
 
     int n, i;

@@ -52,8 +52,10 @@ System.out.println("NULL");
 }
   public static void main(String[] args) {
      LL list =new LL();
-     list.addFirst("a");
-     list.addFirst("is");
+     list.addFirst("this");
+     list.addLast("is");
+     list.addLast("a");
+     list.addLast("linklist");
      list.printList();
   }
 }
