@@ -32,7 +32,7 @@ class sumofSquare extends Square{
 System.out.println("sum of square "+sum);
   }
 }
-class multipleInheritence {
+class multilevelin {
   public static void main(String[] args) {
     sumofSquare obj =new sumofSquare();
     obj.getval(5);
